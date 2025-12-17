@@ -1,2 +1,6 @@
 @import "tailwindcss";
 
+@theme {
+  --spacing-myContainer: 1300px;
+  --font-pop: "Poppins", sans-serif;
+}
