@@ -10,7 +10,9 @@ const Home = () => {
         <Banner/>
         <TheApp/>
         <Locations/>
+        <Whylime/>
         <NewsBlog/>
+        
         </>
     )
 }
