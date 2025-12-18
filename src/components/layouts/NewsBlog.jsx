@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 const NewsBlog = () => {
   return (
     <div className="bg-[#1E1E1E] py-20">
-      <Container>
+      <Container className={'px-50px'}>
         <div className="text-center pb-[75px]">
           <h4 className="text-[#00B200] text-xl font-poppins">
             Lime Times Blog
