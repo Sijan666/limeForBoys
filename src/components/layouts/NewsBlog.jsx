@@ -55,7 +55,7 @@ const NewsBlog = () => {
               <Images ImgSrc={NewsThree} />
             </Link>
             <p className="font-poppins text-[28px] text-white pb-[105px] pt-[25px] w-[380px]">
-              Lime Recaps 2023 With Its Annual ​‘Ride Replay’
+              Lime Recaps 2023 With Its Annual ‘Ride Replay’
             </p>
             <p className="text-[16px] text-white font-poppins">
               by Andrew Savage | January 16, 2024
