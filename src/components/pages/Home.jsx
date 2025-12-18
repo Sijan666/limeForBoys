@@ -1,12 +1,11 @@
-import NewsBlog from "../layouts/NewsBlog"
-
+import Whylime from "../layouts/Whylime";
 
 const Home = () => {
-    return (
-        <>
-        <NewsBlog/>
-        </>
-    )
-}
+  return (
+    <>
+      <Whylime />
+    </>
+  );
+};
 
-export default Home
+export default Home;
