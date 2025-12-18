@@ -10,7 +10,7 @@ import Images from "../Images";
 
 const Whylime = () => {
   var settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
