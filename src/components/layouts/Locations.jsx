@@ -17,7 +17,7 @@ const Locations = () => {
   };
 
   return (
-    <div className="pt-20">
+    <div className="py-30">
       <Container>
         <div className="text-center">
           <p className="text-[#00B200] font-pop text-[20px] ">Locations</p>
