@@ -30,39 +30,39 @@ const Whylime = () => {
       <div className="-mx-3 mt-8">
         <Slider {...settings}>
           <div className="outline-none w-1/3 px-3">
-            <Images ImgSrc={whylimeOne} />
+            <Images imgSrc={whylimeOne} />
             <div className="relative">
               <h4 className="text-black text-[20px] font-poppins pt-4">
                 Safety
               </h4>
-              <div className="w-[63px] h-[1px] bg-black absolute bottom-1"></div>
+              <div className="w-[63px] h-px bg-black absolute bottom-1"></div>
             </div>
           </div>
           <div className="outline-none w-1/3 px-3">
-            <Images ImgSrc={whylimeTwo} />
+            <Images imgSrc={whylimeTwo} />
             <div className="relative">
               <h4 className="text-black text-[20px] font-poppins pt-4">
                 Sustainability
               </h4>
-              <div className="w-[134px] h-[1px] bg-black absolute bottom-1"></div>
+              <div className="w-[134px] h-px bg-black absolute bottom-1"></div>
             </div>
           </div>
           <div className="outline-none w-1/3 px-3">
-            <Images ImgSrc={whylimeThree} />
+            <Images imgSrc={whylimeThree} />
             <div className="relative">
               <h4 className="text-black text-[20px] font-poppins pt-4">
                 Community
               </h4>
-              <div className="w-[118px] h-[1px] bg-black absolute bottom-1"></div>
+              <div className="w-[118px] h-px bg-black absolute bottom-1"></div>
             </div>
           </div>
           <div className="outline-none w-1/3 px-3">
-            <Images ImgSrc={whylimeTwo} />
+            <Images imgSrc={whylimeTwo} />
             <div className="relative">
               <h4 className="text-black text-[20px] font-poppins pt-4">
                 Sustainability
               </h4>
-              <div className="w-[134px] h-[1px] bg-black absolute bottom-1"></div>
+              <div className="w-[134px] h-px bg-black absolute bottom-1"></div>
             </div>
           </div>
         </Slider>

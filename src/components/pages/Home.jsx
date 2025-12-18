@@ -2,6 +2,7 @@ import Banner from "../layouts/Banner";
 import Locations from "../layouts/Locations"
 import NewsBlog from "../layouts/NewsBlog"
 import TheApp from "../layouts/TheApp";
+import Whylime from "../layouts/Whylime";
 
 
 const Home = () => {
@@ -12,7 +13,6 @@ const Home = () => {
         <Locations/>
         <Whylime/>
         <NewsBlog/>
-        
         </>
     )
 }
