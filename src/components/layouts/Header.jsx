@@ -9,7 +9,7 @@ import Button from "../Button";
 
 const Header = () => {
   return (
-    <div className="py-10 bg-teal-500 ">
+    <div className="py-8 fixed top-0 left-0 w-full ">
       <Container>
         <Flex>
           {/* Logo start */}
@@ -21,7 +21,7 @@ const Header = () => {
           {/* Logo End */}
           {/* Change Lang Start */}
           <Link to={"/"}>
-            <div className="flex items-center border-white border p-[9px] rounded-[10px] ">
+            <div className="flex items-center border-[#FFFFFF4D] border p-[9px] rounded-[10px] ">
               <Image src={usaflag} />
               <p className="font-pop font-normal text-3.5 text-[#FFFFFF] leading-3.5 pl-2 ">
                 EN
@@ -30,7 +30,7 @@ const Header = () => {
           </Link>
           {/* Change Lang End */}
           {/* Menu Start */}
-          <div className="ml-[240px] mr-[30px]">
+          <div className="ml-[235px] mr-[35px]">
             <ul className="flex items-center gap-x-[35.5px]">
               <li>
                 <Link
@@ -109,7 +109,12 @@ const Header = () => {
           {/* Button Start */}
           <div className="">
             <Link to={"/"}>
-              <Button text={"Download App"} />
+              <Button
+                className={
+                  "border border-[#00DD00] hover:bg-transparent hover:border hover:border-[#FFFFFF4D] hover:text-white duration-500"
+                }
+                text={"Download App"}
+              />
             </Link>
           </div>
           {/* Button End */}
