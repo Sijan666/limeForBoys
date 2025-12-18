@@ -14,7 +14,6 @@ const Locations = () => {
     autoplaySpeed: 1500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    rightPadding: "55%",
   };
 
   return (
