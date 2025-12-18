@@ -1,11 +1,11 @@
 import React from "react";
 import Container from "../Container";
 import Flex from "../Flex";
-import Image from "../Image";
 import logo from "/src/assets/logo.png";
 import usaflag from "/src/assets/usaflag.png";
 import { Link } from "react-router-dom";
 import Button from "../Button";
+import Images from "../Images";
 
 const Header = () => {
   return (
@@ -15,14 +15,14 @@ const Header = () => {
           {/* Logo start */}
           <Link to={"/"}>
             <div className="mr-[30px]">
-              <Image src={logo} />
+              <Images imgSrc={logo} />
             </div>
           </Link>
           {/* Logo End */}
           {/* Change Lang Start */}
           <Link to={"/"}>
             <div className="flex items-center border-[#FFFFFF4D] border p-[9px] rounded-[10px] ">
-              <Image src={usaflag} />
+              <Images imgSrc={usaflag} />
               <p className="font-pop font-normal text-3.5 text-[#FFFFFF] leading-3.5 pl-2 ">
                 EN
               </p>
@@ -92,7 +92,6 @@ const Header = () => {
                   Blog
                 </Link>
               </li>
-
               <li>
                 <Link
                   className={
@@ -113,7 +112,7 @@ const Header = () => {
                 className={
                   "border border-[#00DD00] hover:bg-transparent hover:border hover:border-[#FFFFFF4D] hover:text-white duration-500"
                 }
-                text={"Download App"}
+                btnText={"Download App"}
               />
             </Link>
           </div>

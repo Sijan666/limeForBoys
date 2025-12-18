@@ -1,9 +1,10 @@
 import Container from "../Container";
-import Image from "../Image";
 import { FaArrowRight } from "react-icons/fa";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import Images from "../Images";
+
 
 const Locations = () => {
   var settings = {
@@ -26,7 +27,7 @@ const Locations = () => {
         <div className=" -mx-3">
           <Slider {...settings}>
             <div className="outline-none w-1/3 px-3">
-              <Image imgSrc={"/src/assets/newYork.png"} />
+              <Images imgSrc={"/src/assets/newYork.png"} />
               <div className="flex items-center">
                 <u className="text-[20px] font-pop pt-7">New York</u>
                 <p className="text-[16px] pl-2.5 pt-7">
@@ -36,7 +37,7 @@ const Locations = () => {
             </div>
 
             <div className="outline-none w-1/3 px-3">
-              <Image imgSrc={"/src/assets/sanFran.png"} />
+              <Images imgSrc={"/src/assets/sanFran.png"} />
               <div className="flex items-center">
                 <u className="text-[20px] font-pop pt-7">San Francisco</u>
                 <p className="text-[16px] pl-2.5 pt-7">
@@ -46,7 +47,7 @@ const Locations = () => {
             </div>
 
             <div className="outline-none w-1/3 px-3">
-              <Image imgSrc={"/src/assets/washDc.png"} />
+              <Images imgSrc={"/src/assets/washDc.png"} />
               <div className="flex items-center">
                 <u className="text-[20px] font-pop pt-7">Washington, DC</u>
                 <p className="text-[16px] pl-2.5 pt-7">
@@ -56,7 +57,7 @@ const Locations = () => {
             </div>
 
             <div className="outline-none w-1/3 px-3">
-              <Image imgSrc={"/src/assets/newYork.png"} />
+              <Images imgSrc={"/src/assets/newYork.png"} />
               <div className="flex items-center">
                 <u className="text-[20px] font-pop pt-7">New York</u>
                 <p className="text-[16px] pl-2.5 pt-7">
@@ -66,7 +67,7 @@ const Locations = () => {
             </div>
 
             <div className="outline-none w-1/3 px-3">
-              <Image imgSrc={"/src/assets/sanFran.png"} />
+              <Images imgSrc={"/src/assets/sanFran.png"} />
               <div className="flex items-center">
                 <u className="text-[20px] font-pop pt-7">San Francisco</u>
                 <p className="text-[16px] pl-2.5 pt-7">
@@ -76,7 +77,7 @@ const Locations = () => {
             </div>
 
             <div className="outline-none w-1/3 px-3">
-              <Image imgSrc={"/src/assets/washDc.png"} />
+              <Images imgSrc={"/src/assets/washDc.png"} />
               <div className="flex items-center">
                 <u className="text-[20px] font-pop pt-7">Washington, DC</u>
                 <p className="text-[16px] pl-2.5 pt-7">
