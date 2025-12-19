@@ -103,12 +103,21 @@ const Footer = () => {
               </li>
             </ul>
             <div className="flex gap-x-3 mt-6">
-              <FaTwitter className="bg-amber-50 text-4xl rounded-[50%] text-black p-2" />
-
-              <FaFacebook className="bg-amber-50 text-4xl rounded-[50%] text-black p-2" />
-              <FaLinkedinIn className="bg-amber-50 text-4xl rounded-[50%] text-black p-2" />
-              <FaYoutube className="bg-amber-50 text-4xl rounded-[50%] text-black p-2" />
-              <FaInstagram className="bg-amber-50 text-4xl rounded-[50%] text-black p-2" />
+              <Link>
+                <FaTwitter className="bg-amber-50 text-4xl rounded-[50%] text-black p-2" />
+              </Link>
+              <Link>
+                <FaFacebook className="bg-amber-50 text-4xl rounded-[50%] text-black p-2" />
+              </Link>
+              <Link>
+                <FaLinkedinIn className="bg-amber-50 text-4xl rounded-[50%] text-black p-2" />
+              </Link>
+              <Link>
+                <FaYoutube className="bg-amber-50 text-4xl rounded-[50%] text-black p-2" />
+              </Link>
+              <Link>
+                <FaInstagram className="bg-amber-50 text-4xl rounded-[50%] text-black p-2" />
+              </Link>
             </div>
           </div>
         </Flex>
