@@ -1,6 +1,6 @@
 import Container from "../Container";
 import Flex from "../Flex";
-import Image from "../Images";
+import Images from "../Images";
 import vehiclesOne from "/src/assets/vehiclesOne.png";
 import vehiclesTwo from "/src/assets/vehiclesTwo.png";
 
@@ -14,11 +14,11 @@ const Vehicles = () => {
         </div>
         <Flex className={"gap-x-5 text-center justify-center"}>
           <div className="bg-[#EEEEEE] px-20 pt-[60px] pb-10 rounded-[20px]">
-            <Image imgSrc={vehiclesOne} />
+            <Images imgSrc={vehiclesOne} />
             <p className="text-[20px] font-pop pt-9">E-Scooter</p>
           </div>
           <div className="bg-[#EEEEEE] px-20 pt-[60px] pb-10 rounded-[20px]">
-            <Image imgSrc={vehiclesTwo} />
+            <Images imgSrc={vehiclesTwo} />
             <p className="text-[20px] font-pop pt-9">E-Bike</p>
           </div>
         </Flex>
