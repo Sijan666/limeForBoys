@@ -17,7 +17,7 @@ const Footer = () => {
         <Flex className={"items-start justify-between"}>
           <div className="">
             <Link to={"/"}>
-              <Images ImgSrc={footerLogo} />
+              <Images imgSrc={footerLogo} />
             </Link>
           </div>
           <div className="">
