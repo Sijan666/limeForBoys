@@ -2,11 +2,12 @@ import React from "react";
 import Button from "../Button";
 import Container from "../Container";
 import Flex from "../Flex";
-import Images from "../Images";
 import NewsOne from "/src/assets/News1.png";
 import NewsTwo from "/src/assets/News2.png";
 import NewsThree from "/src/assets/News3.png";
 import { Link } from "react-router-dom";
+import Images from "../Images";
+
 
 const NewsBlog = () => {
   return (
@@ -24,7 +25,7 @@ const NewsBlog = () => {
           {/* Blog One */}
           <div className="">
             <Link to={""}>
-              <Images ImgSrc={NewsOne} />
+              <Images imgSrc={NewsOne} />
             </Link>
             <h5 className="text-[16px] font-bold font-poppins text-[#00DD00] pt-[30px] pb-2.5 ">
               Sustainability
@@ -40,7 +41,7 @@ const NewsBlog = () => {
           {/* Blog Two */}
           <div className="">
             <Link to={""}>
-              <Images ImgSrc={NewsTwo} />
+              <Images imgSrc={NewsTwo} />
             </Link>
             <p className="font-poppins text-[28px] text-white pb-[150px] pt-[25px] w-[380px]">
               Hero of the Month: Respire
@@ -52,7 +53,7 @@ const NewsBlog = () => {
           {/* Blog Three */}
           <div className="">
             <Link to={""}>
-              <Images ImgSrc={NewsThree} />
+              <Images imgSrc={NewsThree} />
             </Link>
             <p className="font-poppins text-[28px] text-white pb-[105px] pt-[25px] w-[380px]">
               Lime Recaps 2023 With Its Annual ‘Ride Replay’
